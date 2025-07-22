@@ -1,0 +1,52 @@
+#a_tab_test.ui.button {
+  background-color: #222;
+  color: #ccc;
+  border: 1.5px solid rgba(255, 255, 255, 0.3);
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+  outline: none;
+}
+
+#a_tab_test.ui.button:hover,
+#a_tab_test.ui.button:focus,
+#a_tab_test.ui.button.active {
+  background-color: #333;
+  border-color: rgba(255, 255, 255, 0.6);
+}
+
+.spinner {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: conic-gradient(
+    from 0deg,
+    #d3d3d3,
+    /* jasnoszary */ #808080,
+    /* szary */ #404040,
+    /* ciemnoszary */ #d3d3d3
+      /* znowu jasnoszary, żeby gradient się płynnie zamknął */
+  );
+  -webkit-mask: radial-gradient(
+    farthest-side,
+    transparent calc(100% - 3px),
+    black calc(100% - 2px)
+  );
+  mask: radial-gradient(
+    farthest-side,
+    transparent calc(100% - 3px),
+    black calc(100% - 2px)
+  );
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
