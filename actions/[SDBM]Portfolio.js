@@ -2,8 +2,8 @@ module.exports = {
   // Stabilne nazwy, nie edytuj ich
   name: "Portfolio Mod",
   displayName: "Portfolio Mod",
-  section: "###SDBM Mods",
-  author: "euforia.44 (final version by Gemini)",
+  section: "SDBM Mods",
+  author: "euforia.44 ",
   version: "9.8.0", // Canvas Update
   short_description: "Generuje profesjonalną grafikę portfolio z licznymi opcjami personalizacji.",
   subtitle(data) {
