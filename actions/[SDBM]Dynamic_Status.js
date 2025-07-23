@@ -1,7 +1,7 @@
 module.exports = {
   name: "Dynamic Status",
   displayName: "Dynamic Status v3",
-  section: "##Euforia Mods",
+  section: "SDBM Mods",
   author: "euforia.44 (v3.2.1 by Assistant)",
   version: "3.2.1",
   short_description: "Ustawia dynamiczny status bota na podstawie zdefiniowanej listy.",
