@@ -13,7 +13,7 @@ module.exports = {
   // This is the section the action will fall into.
   //---------------------------------------------------------------------
 
-  section: "[SDBM] (dawna nazwa) Discord",
+  section: "[SDBM] Discord",
 
   //---------------------------------------------------------------------
   // Action Subtitle
