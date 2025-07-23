@@ -1,26 +1,9 @@
-/*************************************************************************************************
-*                                                                                                *
-*                                                                                                *
-*                                              AI                                                *
-*                                     --------------------                                       *
-*                                                                                                *
-*                          CAŁOŚĆ KODU ZOSTAŁA STWORZONA PRZEZ: EUFORIA.44  & AI                 *
-*                                     WERSJA: 11.0.0 (BULLETPROOF-EDITION)                       *
-*                                                                                                *
-*           MOD I JEGO KOD ŹRÓDŁOWY SĄ WŁASNOŚCIĄ INTELEKTUALNĄ AUTORA. 		                     *
-*             	    ZABRANIA SIĘ SPRZEDAŻY BEZ WYRAŹNEJ ZGODY.      					                   *
-*                                                                                                *
-*   UWAGA: Ten mod wymaga dodatkowych pakietów. Użyj pliku start.bat lub zainstaluj je komendą:
-*          npm install franc node-fetch@2 dotenv
-*                                                                                                *
-*************************************************************************************************/
-
 const conversationMemory = {};
 const cooldowns = {};
 
 module.exports = {
   name: "AI (Euforia Mods)",
-  section: "##Euforia Mods",
+  section: "SDBM Mods",
   author: "euforia.44",
   version: "11.0.0",
   short_description: "Finalna, stabilna wersja AI z dynamiczną pamięcią i wiedzą o serwerze.",
